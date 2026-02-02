@@ -1,0 +1,41 @@
+body{
+background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.6)),url(alm1.jpg); background-position:initial;
+background-repeat:no-repeat; background-size:cover; background-color: black; height: 100vh;
+}
+
+
+#currentTime{
+font-weight:bolder; font-size: 50px;
+font-family: cursive; letter-spacing: 5px; padding-left: 608px; padding-top:200px; color:whitesmoke;
+
+}
+
+
+#date{
+color:white;
+text-align:130px; padding-left: 654px; font-size: xx-large; font-weight: bold; padding-top: 24px;
+}
+#alarmSet{
+padding-left: 650px; padding-top: 30px;
+}
+#setBtn{
+ 
+height:57px; width: 170px; font-size: large;
+border-radius: 20px; cursor: pointer;
+font-weight: bold; background-color: beige;
+}
+#settime{
+padding-left: 560px; padding-top: 20px; visibility: hidden;
+
+}
+
+
+#setHr,#setMin,#setSec{ font-weight: bold; height:45px; width:115px;
+text-align: center; font-size: larger;
+
+}
+#saveAlarm{ height:57px; width: 135px; font-size:large;
+border-radius: 20px; cursor: pointer;
+font-weight: bold; margin-top: 25px; margin-left:107px; background-color: beige;
+ 
+}
